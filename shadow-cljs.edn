@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :dependencies []
+ :builds {:node
+          {:target :node-script
+           :output-to "target/main.js"
+           :main example.main/-main}}}
